@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen AND (max-width: 720px){
+
+
+    #buttonarea{
+        position: relative;
+        flex-direction: row;
+        top: 90px;
+        gap: 20px;
+    }
+    
+    
+    .button{
+        height:70px;
+        width: 70px;
+        border-radius: 50px;
+        box-shadow: rgba(32, 32, 32, 0.568) 4px 4px;
+    
+    }
+}
+
+@media screen AND (max-width: 460px){
+    #cellphone{
+        border: solid red 2px;
+    }
+
+    
+    #buttonarea{
+        position: relative;
+        flex-direction: row;
+        top: 90px;
+        gap: 5px;
+        border: 2px solid blue;
+        padding: 0;
+            
+    }
+    
+    
+    .button{
+        height:60px;
+        width: 60px;
+        border-radius: 50px;
+        box-shadow: rgba(32, 32, 32, 0.568) 4px 4px;
+    
+    }
+}
+    
