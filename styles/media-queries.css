@@ -21,17 +21,12 @@
 }
 
 @media screen AND (max-width: 460px){
-    #cellphone{
-        border: solid red 2px;
-    }
 
-    
     #buttonarea{
         position: relative;
         flex-direction: row;
         top: 90px;
         gap: 5px;
-        border: 2px solid blue;
         padding: 0;
             
     }
